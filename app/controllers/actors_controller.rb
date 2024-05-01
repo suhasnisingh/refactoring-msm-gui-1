@@ -52,4 +52,5 @@ class ActorsController < ApplicationController
 
     redirect_to("/actors", { :notice => "Actor deleted successfully."} )
   end
+
 end
